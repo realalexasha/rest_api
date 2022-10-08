@@ -3,7 +3,8 @@ sys.path.append("D:\Python\section6\code\models")
 sys.path.append("D:\Python\section6\code\\resources")
 from flask import Flask
 from flask_restful import Api
-from flask_jwt import JWT
+# from flask_jwt import JWT
+from module.flask_jwt import JWT
 from security import authenticate, identity
 from resources.user import UserRegister
 from resources.item import Item, ItemList
